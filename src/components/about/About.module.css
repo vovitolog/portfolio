@@ -1,0 +1,15 @@
+.about {
+    border: 1px solid green;
+    height: 100vh;
+    background-color: violet;
+
+}
+
+.text {
+    width: 300px;
+    background-color: lightseagreen;
+}
+
+.photo {
+    height: 300px;
+}
