@@ -1,8 +1,6 @@
 .about {
     border: 1px solid green;
-    height: 100vh;
-    background-color: violet;
-
+    /*height: 100vh;*/
 }
 
 .text {
@@ -11,5 +9,7 @@
 }
 
 .photo {
-    height: 300px;
+    width: 270px;
+    height: 327px;
+    border-radius: 20px;
 }

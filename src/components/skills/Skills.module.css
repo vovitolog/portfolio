@@ -1,11 +1,11 @@
 .skillsBlock {
     border: 1px solid green;
-    height: 100vh;
-    background-color: yellow;
+    /*height: 100vh;*/
+    /*background-color: yellow;*/
 }
 
 .skillsContainer {
-  flex-direction : column;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
