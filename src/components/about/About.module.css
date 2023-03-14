@@ -4,8 +4,16 @@
 }
 
 .text {
-    width: 300px;
+    width: 600px;
     background-color: lightseagreen;
+    color: #3c3e41;
+}
+
+.text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #3c3e41;
 }
 
 .photo {

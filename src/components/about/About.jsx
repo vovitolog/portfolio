@@ -8,8 +8,9 @@ export const About = () => {
         <div className={styleContainer.container}>
             <div className={classes.text}>
                 <span>Hi There</span>
-                <h1>I'm Vladimir Rodionov</h1>
+                <h2>I'm Vladimir Rodionov</h2>
                 <p>Frontend Developer</p>
+                <p>You can find more information about me in my CV</p>
             </div>
             <div className={classes.photo}>
                 <img className={classes.photo} src={photo} alt="Фото Владимир"/>
