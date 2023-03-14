@@ -1,6 +1,14 @@
 .nav {
-   border: 1px solid green;
    display: flex;
    width: 300px;
    justify-content: space-between;
+}
+
+a {
+   /*color body white*/
+   color: #3c3e41;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 13px;
+   text-transform: uppercase;
 }

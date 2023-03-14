@@ -1,8 +1,6 @@
 import React from "react";
 import classes from "./About.module.css";
-import styleContainer from "../../common/styles/Container.module.css"
 import photo from "../../assets/images/vladimir.jpg"
-import {getCLS} from "web-vitals";
 
 export const About = () => {
     return <section className={classes.about}>
