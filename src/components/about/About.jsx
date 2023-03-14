@@ -8,14 +8,20 @@ export const About = () => {
             <div className={classes.person}>
                 <div className={classes.personText}>
                     <span>Hi There</span>
-                    <h2 className={classes.title}>I'm Vladimir Rodionov</h2>
+                    <h2 className={classes.title}>
+                        {'I’m '}
+                        <span>Vladimir Rodionov</span>
+                    </h2>
                     <p>Frontend Developer</p>
                 </div>
                 <div className={classes.personContact}>
-                    Download my curriculum vitae:
-                    <p>Frontend Developer</p>
-                    <p>Frontend Developer</p>
-                    <p>Frontend Developer</p>
+                    <span className={classes.personContactText}>  Download my curriculum vitae:
+                    </span>
+                    <div className={classes.buttonsWrapper}>
+                        <a className={classes.button}>DOWNLOAD CV</a>
+                        <a className={classes.button}>CONTACT ME</a>
+                    </div>
+
                 </div>
             </div>
             <div className={classes.photoWrapper}>
